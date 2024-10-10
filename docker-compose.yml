@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  nextjs-app:
+    build:
+      context: .  # The current directory where the Dockerfile is located
+    container_name: nextjs-gallery-app
+    ports:
+      - "3001:3001"
+    environment:
+      NODE_ENV: production
