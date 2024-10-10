@@ -29,7 +29,7 @@ COPY --from=builder /app ./
 RUN npm install --production
 
 # Step 11: Expose the port the app will run on
-EXPOSE 3001
+EXPOSE 4000
 
 # Step 12: Start the Next.js app in production mode
 CMD ["npm", "start"]

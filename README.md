@@ -61,7 +61,7 @@ To build and run the application using Docker:
 
 2. Run the container:
    ```
-   docker run -p 3001:3001 image-gallery
+   docker run -p 4000:4000 image-gallery
    ```
 
 Alternatively, you can use Docker Compose:
@@ -70,7 +70,7 @@ Alternatively, you can use Docker Compose:
 docker-compose up
 ```
 
-The application will be available at `http://localhost:3001`.
+The application will be available at `http://localhost:4000`.
 
 ## Dependencies
 
